@@ -1,0 +1,96 @@
+
+
+
+
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+font-family: Tahoma, Verdana, sans-serif;
+}
+
+body{
+  width:100%;
+  height:100vh;
+  background:linear-gradient(45deg ,rgba(42, 85, 132, 0.7),rgba(69, 135, 177, 1));
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.calsi_container{
+  box-shadow:2px 5px 20px black;
+  background:transparent;
+  border-radius:10px;
+  border-color: 4px solid ;
+}
+
+#input{
+  font-size:130%;
+  text-align:right;
+  width:312px;
+  padding:30px;
+  background:transparent;
+  border:none;
+  box-shadow:0px 0px 20px black;
+  border-radius:10px;
+  outline:none;
+  
+}
+
+#input::placeholder{
+  color: black;
+
+}
+
+button{
+  color:white;
+  border:none;
+  width:55px;
+  height:50px;
+  margin:10px;
+  background:transparent;
+  box-shadow:-3px 0px 10px black;
+  border-radius:10px;
+  
+}
+
+button:hover{
+  background-color:rgba(45, 128, 154, 1);
+  color:black;
+}
+ 
+#equal{
+  color:green;
+  font-size:20px;
+  
+}
+#equal:hover{
+  color: white;
+}
+
+#control{
+  color:orange;
+  font-size:20px;
+}
+#control:hover{
+  color:white;
+}
+
+#oparaters{
+  color:rgba(191, 159, 53, 1);
+font-size:20px;
+
+}
+#oparaters:hover{
+  color:white;
+}
+#head{
+  position: absolute;
+  top:5%;
+  border-radius:15px;
+  box-shadow:-2px -1px 5px;
+  padding:1px 5px 1px 5px;
+  
+}
